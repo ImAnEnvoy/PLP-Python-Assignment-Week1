@@ -15,17 +15,11 @@ Accepts floating-point and integer inputs
   - Multiplication (*)
   - Division (/)
 
-Simple command-line interface (CLI)
-
-Handles invalid operator inputs gracefully
-
 ## Usage
 #### Run the script:
-bash
 python calculator.py
 
-#### Sample Interaction:
-bash
+### Sample Interaction:
 
 Enter first number: 10
 
@@ -36,7 +30,6 @@ Choose operator (+,-,*,/): *
 10.0 * 5.0 = 50.0
 
 ## Code Overview
-python
 
 first_num = float(input("Enter first number: "))
 
